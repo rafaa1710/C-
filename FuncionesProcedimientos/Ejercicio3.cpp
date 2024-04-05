@@ -16,7 +16,6 @@ using namespace std;
 
 void incrementar(int &numero1){
     numero1+=1;
-    cout << "Dentro de la funcion el valor duplicado es: " << numero1 << endl;
 }
 
 int calcularCuadrado(int numero1){
@@ -31,6 +30,8 @@ int numero1=6;
 cout << "El numero original es: "<< numero1 << endl;
 
      incrementar(numero1);
+     
+     cout << "El valor incrementado es: "<<numero1 << endl;
      
      cout << "El cuadrado del numero incrementado es : "<< calcularCuadrado(numero1) << endl;
     

@@ -11,7 +11,7 @@ Descripcion: Escribe un programa en C++ que defina una función llamada suma que
 
 using namespace std;
 
-int sumar(int a, int b){
+int suma(int a, int b){
     return a + b;
 }
 
@@ -26,7 +26,7 @@ int a,b;
      cout << "Introduce otro numero: " << endl;
      cin >> b;
 
-     cout << a << "+" << b << "=" << sumar(a,b) << endl; 
+     cout << a << "+" << b << "=" << suma(a,b) << endl; 
 
     return 0;
 }
